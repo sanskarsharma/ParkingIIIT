@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2017 at 11:36 PM
+-- Generation Time: Jun 21, 2017 at 02:13 PM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 5.6.24
 
@@ -32,6 +32,14 @@ CREATE TABLE `locationtable` (
   `vacant` int(5) NOT NULL,
   `on_hold` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `locationtable`
+--
+
+INSERT INTO `locationtable` (`locationid`, `totalcapacity`, `vacant`, `on_hold`) VALUES
+('iiit', 100, 70, 10),
+('ssipmt', 80, 40, 20);
 
 -- --------------------------------------------------------
 
